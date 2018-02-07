@@ -1,4 +1,4 @@
-package rai.patty.soppingbackend;
+package rai.shoppingbackend;
 
 /**
  * Hello world!

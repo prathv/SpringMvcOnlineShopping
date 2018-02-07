@@ -6,10 +6,32 @@
 
 body {
   padding-top: 54px;
+  height:100%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   body {
     padding-top: 56px;
   }
+}
+
+.wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+.content{
+	padding-bottom:60px;
+}
+
+footer{
+	margin:0px;
+}
+
+.footer{
+	position:absolute;
+	bottom:15px;
+	height:60px;
+	width:100%;
+	
 }

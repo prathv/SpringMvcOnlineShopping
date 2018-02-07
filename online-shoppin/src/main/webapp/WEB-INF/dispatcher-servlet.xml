@@ -11,7 +11,8 @@ xmlns:context="http://www.springframework.org/schema/context"
         
    
    <context:component-scan base-package="raip.patty.controller"></context:component-scan>
-
+	   <context:component-scan base-package="raip.shoppingbackend.daoImpl"></context:component-scan>
+	
 	<mvc:annotation-driven/>
 	<mvc:resources location="/assets/" mapping="/resources/**"/>      
    <bean id="viewResolver"
